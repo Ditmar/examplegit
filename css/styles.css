@@ -1,0 +1,26 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title > h2{
+    color: white;
+}
+.thumbnail {
+    width: 15rem;
+    background-color: black;
+    border-radius: 4px;
+    padding: 10px;
+}
+.thumbnail > .img {
+    overflow: hidden;
+}
+.thumbnail > .img img {
+    width: 100%;
+}
+.thumbnail > .text > p {
+    color: #ff0000;
+}
